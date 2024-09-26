@@ -9804,15 +9804,15 @@
 	(symbol
 		(lib_id "Device:Q_PNP_ECB")
 		(at 92.71 158.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2cdfd144-5f7b-459e-b6bb-caa8865874dd")
 		(property "Reference" "Q1"
-			(at 97.79 157.4799 0)
+			(at 97.79 160.0201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +9821,7 @@
 			)
 		)
 		(property "Value" "2SA937"
-			(at 97.79 160.0199 0)
+			(at 97.79 157.4801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +9830,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 97.79 156.21 0)
+			(at 97.79 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
