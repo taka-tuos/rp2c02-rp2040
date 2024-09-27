@@ -11026,7 +11026,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC574N"
+		(property "Value" "74HC573N"
 			(at 3.81 25.19 0)
 			(layer "F.Fab")
 			(uuid "dc9473f5-dadf-4920-90d5-dc804659afc2")
@@ -11049,7 +11049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS574"
+		(property "Datasheet" "74xx/74hc573.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11061,7 +11061,7 @@
 				)
 			)
 		)
-		(property "Description" "8-bit Register, 3-state outputs"
+		(property "Description" "8-bit Latch 3-state outputs"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11439,7 +11439,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 27 "/P.ALE")
-			(pinfunction "Cp")
+			(pinfunction "Load")
 			(pintype "input")
 			(uuid "a626fded-5677-4dba-9ed1-41d5a5de0acc")
 		)
@@ -13804,7 +13804,7 @@
 			)
 		)
 	)
-	(gr_text "74HC574"
+	(gr_text "74HC573"
 		(at 127.635 76.2 90)
 		(layer "F.SilkS")
 		(uuid "9e4c1363-07fb-44b8-8039-634d358707cc")

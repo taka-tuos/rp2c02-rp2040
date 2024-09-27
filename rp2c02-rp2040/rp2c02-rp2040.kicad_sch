@@ -5,7 +5,7 @@
 	(uuid "cd991c42-ad1a-4432-b2be-5ac678d91d7d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xx:74LS574"
+		(symbol "74xx:74LS573"
 			(pin_names
 				(offset 1.016)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "74LS574"
+			(property "Value" "74LS573"
 				(at -7.62 -16.51 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS574"
+			(property "Datasheet" "74xx/74hc573.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "8-bit Register, 3-state outputs"
+			(property "Description" "8-bit Latch 3-state outputs"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TTL REG DFF DFF8 3State"
+			(property "ki_keywords" "TTL DFF DFF8 LATCH 3State"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74LS574_1_0"
+			(symbol "74LS573_1_0"
 				(pin input inverted
 					(at -12.7 -12.7 0)
 					(length 5.08)
@@ -118,10 +118,10 @@
 						)
 					)
 				)
-				(pin input clock
+				(pin input line
 					(at -12.7 -10.16 0)
 					(length 5.08)
-					(name "Cp"
+					(name "Load"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -443,7 +443,7 @@
 					)
 				)
 			)
-			(symbol "74LS574_1_1"
+			(symbol "74LS573_1_1"
 				(rectangle
 					(start -7.62 15.24)
 					(end 7.62 -15.24)
@@ -12839,7 +12839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS574")
+		(lib_id "74xx:74LS573")
 		(at 157.48 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12857,7 +12857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC574N"
+		(property "Value" "74HC573N"
 			(at 159.6741 25.4 0)
 			(effects
 				(font
@@ -12875,7 +12875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS574"
+		(property "Datasheet" "74xx/74hc573.pdf"
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -12884,7 +12884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit Register, 3-state outputs"
+		(property "Description" "8-bit Latch 3-state outputs"
 			(at 157.48 43.18 0)
 			(effects
 				(font
